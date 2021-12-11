@@ -1,0 +1,29 @@
+.u-section-1 {
+  background-image: url("images/fon1-min.gif");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-custom-html-1 {
+  min-height: 79px;
+  height: auto;
+  width: 391px;
+  margin: 35px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-custom-html-1 {
+    width: 270px;
+    margin-top: 37px;
+    margin-bottom: 60px;
+  }
+}
