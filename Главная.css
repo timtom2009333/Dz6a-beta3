@@ -1,3 +1,4 @@
+
 .border {
 border: 6px solid;
 border-color: #00B9FB;
@@ -5,11 +6,8 @@ padding: 0px;
 margin: 0px;
 background-color: #46335F;
 }
-.bordersmall {
-  border: 6px solid #00B9FB;
-  padding: 20px;
-  margin: 0px;
-  background-color: #46335F;
+.neved {
+ color: rgba(8, 136, 255, 0.4);
   }
 .u-section-1 {
   background-image: url("images/fon1-min.gif");
