@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://sitemap-xml.ru-->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd">
+  <url>
+    <loc>https://dz6a.netlify.app/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/Главная.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/dz.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/Расписание.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/Полезное.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/Ближайшие.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/download.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/nol.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/22 декабрякл.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/24 декабря.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/22 декабря.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/gamemaker/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dz6a.netlify.app/ugmk.php.html</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
