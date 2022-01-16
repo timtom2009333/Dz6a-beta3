@@ -1,0 +1,14 @@
+.border {
+border: solid 3px #484079 ;
+}
+.tr {
+margin-left: 20px; 
+} 
+
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 1px 55px 1px 0; /* Отступы вокруг картинки */
+   }
+  .nb {
+color:#ffffff ;
+} 
