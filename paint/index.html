@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dz6a рисовалка</title>
+        <link rel="stylesheet" href="paint.css">
+    
+</head>
+
+    <body>
+    	<style>body {
+background-color: #583F79;
+} </style>
+        <script type="text/template" id="main">
+          
+<h1 style="color: white; margin-right: 30px;" align="right" >Не забудьте сделать скриншот</h1>
+ <div id="ui">
+                <div id="clear-button" class="button">Очистить</div>
+
+           
+
+                <div style="clear:both"></div>
+
+
+
+                <div style="clear:both"></div>
+                <br>
+
+                <div class="control-label">Количество воды в краске</div>
+                <div id="fluidity-slider" class="slider"></div>
+
+                <div class="control-label">Насыщенность кисти</div>
+                <div id="bristles-slider" class="slider"></div>
+
+                <div class="control-label">Ширина кисти</div>
+                <div id="size-slider" class="slider"></div>
+
+                <div class="control-label">Цвет кисти</div>
+
+
+            </div>
+
+
+    
+            <div id="footer">
+       
+            </div>
+        </script>
+
+
+
+        <div id="placeholder"></div>
+
+
+        <script src="wrappedgl.js"></script>
+        <script src="utilities.js"></script>
+        <script src="rectangle.js"></script>
+        <script src="brush.js"></script>
+        <script src="simulator.js"></script>
+        <script src="colorpicker.js"></script>
+        <script src="slider.js"></script>
+        <script src="buttons.js"></script>
+        <!--<script src="brushviewer.js"></script>-->
+        <script src="paint.js"></script>
+
+        <script>
+            'use strict';
+
+            var canvas = document.createElement('canvas');
+            var wgl = WrappedGL.create(canvas);
+
+            if (wgl !== null && wgl.hasFloatTextureSupport()) { //required features are supported
+                document.body.appendChild(canvas);
+                document.getElementById('placeholder').outerHTML = document.getElementById('main').innerHTML;
+                var painter = new Paint(canvas, wgl);
+            } else { //required features unsupported
+                document.getElementById('placeholder').outerHTML = document.getElementById('no-support').innerHTML;
+
+                if (wgl === null) {
+                    document.getElementById('error').innerHTML = 'Unfortunately, your browser does not support WebGL.';
+                } else {
+                    document.getElementById('error').innerHTML = 'Unfortunately, your browser does not support WebGL floating point textures.';
+                }
+            }
+            
+            
+        </script>
+                <div id="qualities"></div> 
+                  <div class="buttons" id="models"></div>
+              <div id="save-button" class="button">Сохранить</div>
+  <div id="undo-button" class="button">Назад</div><div id="redo-button" class="button">Redo</div>
+  </body>
+</html>
