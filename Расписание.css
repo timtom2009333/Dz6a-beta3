@@ -1,3 +1,6 @@
+.fog {
+  height: 900px;
+}
 .border {
   border: 6px solid;
   border-color: #00B9FB;
@@ -7,8 +10,7 @@
   }
 
 .u-section-1 {
-  background-image: url("images/fon1-min.gif");
-  background-position: 50% 50%;
+ 
 }
 
 .u-section-1 .u-sheet-1 {
