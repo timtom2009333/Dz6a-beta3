@@ -52,7 +52,7 @@ let snowletter="&#10052;"
 let sinkspeed=0.4
  
 // Максимальный размер для снежинок
-let snowmaxsize=40
+let snowmaxsize=34
  
 // Минимальный размер для снежинок
 let snowminsize=10
