@@ -24,24 +24,20 @@
 
 </head>
   <body class="u-body u-overlap fog" id="fog">
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.fog.min.js"></script>
-    <script>
-      VANTA.FOG({
-        el: "#fog",
-        mouseControls: true,
-      touchControls: true,
-      gyroControls: true,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      highlightColor: 0x829beb,
-      midtoneColor: 0x873429,
-      lowlightColor: 0x1F3BA8,
-      baseColor: 0x583f79,
-      speed: 4.30
-      })
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.fog.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
+<script>
+bubbly({
+blur:13,
+colorStart: '#6721AC',
+colorStop: '#7827EB',
+radiusFunc:() => 5 + Math.random() * 15,
+bubbles:100
+
+
+});
+</script>
     
     
     <header class="u-align-center-xs u-clearfix u-custom-color-1 u-header u-sticky u-header" id="sec-b601"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-xl u-sheet-1">
